@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Shipping Calculator</title>
+  </head>
+    <body>
+    <div class = "container">
+      <h1>Shipping Calculator</h1>
+          <div class = "col-md-6">
+            <form id= "shippingCalc">
+             <div class="form-group">
+                <label for="packageWeight">Total weight:</label>
+                <input id="packageWeight" type = "number" step="any" placeholder = "Weight in lbs..." class="form-control">
+                <label for="packageDistance">Total distance:</label>
+                <input id="packageDistance" type = "number" placeholder = "Distance in miles..." class="form-control">
+
+             </div>
+              <button type= "submit" class="btn btn-success">Add!</button>
+            </form>
+                <h4>Number of packages:</h4>
+                <h5 class="counter"><h5>
+                <h4>Total Costs:</h4>
+                <h5 class = "total"></h5>
+      </div>
+    </div>
+    </div>
+    </body>
+</html>
